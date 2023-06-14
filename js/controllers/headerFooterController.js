@@ -84,7 +84,7 @@ function AppendDropdownOption(pDiv, pOptionRef, pOptionText) {
 
 function AppendMainLogo() {
     let mainLogoRef = document.createElement('a');
-    mainLogoRef.href = 'home.html';
+    mainLogoRef.href = 'index.html';
 
     let mainLogoImage = document.createElement('img');
     mainLogoImage.classList.add('logo');
