@@ -15,7 +15,7 @@
     width: 20%;
     height: 350px;
     padding: 15px 20px;
-    margin: 10px 30px;
+    margin: 10px auto;
 }
 
 .package:hover {
