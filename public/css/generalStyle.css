@@ -1,0 +1,66 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+#banner {
+    background-image: url('../img/Banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+button {
+    background-color:  #c4a103;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    color: #edece5;
+    font-size: 16px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #deb602;
+    cursor: pointer;
+}
+
+.quoteButton {
+    width: 80px;
+}
+
+.profilePicture {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.horizontalFlex {
+    display: flex;
+    flex-direction: row;
+}
+
+.verticalFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.espaciar {
+    justify-content: space-between;
+}
+
+.centrar {
+    align-items: center;
+}
+
+.textoBlanco {
+    color: white;
+}
+
+.centrarTexto {
+    text-align: center;
+}
