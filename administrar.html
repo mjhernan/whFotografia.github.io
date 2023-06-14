@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/generalStyle.css">
+        <link rel="stylesheet" href="./css/headerStyle.css">
+        <link rel="stylesheet" href="./css/footerStyle.css">
+        <link rel="stylesheet" href="./css/administrarStyle.css">
+        <title>Administrar</title>
+    </head>
+
+    <body>
+        <header id="header"></header>
+
+        <main id="administrarMain">
+            <div class="tituloTabla" onclick="DisplayTablaEventos()">
+                <h3>🡣 EVENTOS</h3>
+            </div>
+            <div class="tablaContenedor" id="tablaEventos">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Fecha</th>
+                            <th>Hora</th>
+                            <th>Lugar</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyEventos">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="tituloTabla" onclick="DisplayTablaReservas()">
+                <h3>🡣 RESERVAS</h3>
+            </div>
+            <div class="tablaContenedor" id="tablaReservas">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Fecha</th>
+                            <th>Hora</th>
+                            <th>Lugar</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyReservas">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="tituloTabla" onclick="DisplayTablaCotizaciones()">
+                <h3>🡣 COTIZACIONES</h3>
+            </div>
+            <div class="tablaContenedor" id="tablaCotizaciones">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Fecha</th>
+                            <th>Hora</th>
+                            <th>Lugar</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyCotizaciones">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+
+        <footer id="footer"></footer>
+
+        <script src="./js/utilidades.js"></script>
+        <script src="./js/controllers/headerFooterController.js"></script>
+        <script src="./js/controllers/administrarController.js"></script>
+    </body>
+</html>

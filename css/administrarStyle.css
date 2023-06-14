@@ -1,0 +1,46 @@
+#administrarMain {
+    padding: 50px 0;
+}
+
+#administrarMain div {
+    padding: 15px 0;
+}
+
+#administrarMain h3{
+    width: 95%;
+    margin: auto;
+}
+
+#administrarMain h3:hover{
+    cursor: pointer;
+}
+
+hr {
+    width: 95%;
+    margin: auto;
+    border: solid 1px black;
+}
+
+.tituloTabla {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin: 15px 50px;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table thead {
+    border-bottom: 1px solid rgba(0,0,0,.12);
+}
+
+table tr {
+    height: 40px;
+}
+
+th {
+    color: rgb(153, 153, 153);
+}
