@@ -28,6 +28,8 @@
 form {
     background-color: rgb(30, 30, 33, 0.97);
     width: 30%;
+    min-width: 300px;
+    max-width: 400px;
     margin: auto;
     padding: 30px 0;
     border-radius: 10px;
